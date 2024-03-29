@@ -1,0 +1,83 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  text-align: center;
+  background-color: #F7EEDD;
+}
+.input-box{
+  width: 100%;
+  height: 40px;
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.input-box input{
+  width: 280px;
+  height: 40px;
+  border: none;
+  padding: 7px;
+  padding-left: 10px;
+  border-radius: 5px;
+  outline: none;
+}
+.input-box input::placeholder{
+  font-size: 16px;
+}
+
+.input-box button{
+  height: 40px;
+  margin-left: 5px;
+  border-radius: 5px;
+  border: none;
+  width: 90px;
+  font-size: 17px;
+  cursor: pointer;
+  background-color: #90D26D;
+  color: #fff;
+}
+
+.container button:hover{
+  background-color: #FF9800;
+}
+
+.user-information{
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 400px;
+  height: 530px;
+  background-color: #2C7865;
+  border-radius: 10px;
+  text-align: left;
+  padding: 20px;
+}
+.image-box{
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.image-box img{
+  width: 200px;
+  border-radius: 10px;
+}
+.user-information a{
+  color:#FF9800;
+}
+
+.user-information h3{
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-weight: 500;
+  color: #F7EEDD;
+}
